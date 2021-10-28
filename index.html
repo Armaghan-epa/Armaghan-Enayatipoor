@@ -1,15 +1,44 @@
 <html>
 <head>
 <title>Venice</title>
+    <link rel="icon" href="icon.png"/>
+    <meta name="keywords" content="venice, sestieri, Italy">
+    <meta name="description" content="A brief description of venice">
+    <style>
+        table,
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: CadetBlue;
+            color: white;
+        }
+    </style>
 </head>
-<body style="background-color:powderblue;">
+<body style="background-color:Lightblue;">
 <div align="right" class="topnav">
     <input type="text" placeholder="Search..">
 </div>
     <h1 align="center">Venice</h1>
     <br>
     <hr>
-    <h2>Introduction</h2>
+
+    <h2>Table of Content</h2>
+    <a href="#introduction section">Introduction</a>
+<br>
+    <a href="#sestieri section">Sestieri</a>
+<br>
+    <a href="#literature section">Literature</a>
+<br>
+<hr>
+    <h2 id="introduction section">Introduction</h2>
+
     <p>
     Venice, Italian Venezia, city, major seaport, and capital of both the provincia (province) of Venezia
     and the regione (region) of Veneto, northern Italy. An island city, it was once the centre of a maritime
@@ -41,20 +70,11 @@
     <img src="intro.jpg"
     alt = "City View Picture"/>
     <hr>
-    <h2>Sestieri</h2>
+    <h2 id="sestieri section">Sestieri</h2>
 <p>
     The Historic city of Venice is divided into six areas called sestieri:
 </p>
-    <style>
-        table,
-        th,
-        td {
-            padding: 10px;
-            border: 1px solid black;
-            border-collapse: collapse;
-            text-align: center;
-        }
-    </style>
+
     <table align="center">
         <tr>
             <th>Sestiere</th>
@@ -105,7 +125,7 @@
     width="1024"/>
     <hr>
 
-<h2>Literature</h2>
+<h2 id="literature section">Literature</h2>
     <img src="literature.jpg">
 <ul>
     <li>Shakespeare's <i>Merchant of Venice</i>  and <i>Othello</i> (1603).</li>
@@ -127,5 +147,12 @@
         with masquerades, canals, and a doge&#8211taking place in a city known as La Serenissima.</li>
     <li>John Berendt's <i>The City of Falling Angels</i> (2005)</li>
 </ul>
+
+<video  width="400" height="300" loop autoplay ><source src="video.mp4" type="video/mp4"></video>
+
+<footer>
+    <p>Personal Project</p>
+    <p>Designer: Armaghan Enayatipoor</p>
+</footer>
 </body>
 </html>
