@@ -4,39 +4,27 @@
     <link rel="icon" href="icon.png"/>
     <meta name="keywords" content="venice, sestieri, Italy">
     <meta name="description" content="A brief description of venice">
-    <style>
-        table,
-        th,
-        td {
-            padding: 10px;
-            border: 1px solid black;
-            border-collapse: collapse;
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            padding: 3px;
-            background-color: CadetBlue;
-            color: white;
-        }
-    </style>
+
+    <link rel="stylesheet" href="Style.css">
+
 </head>
-<body style="background-color:Lightblue;">
+<body>
 <div align="right" class="topnav">
     <input type="text" placeholder="Search..">
 </div>
-    <h1 align="center">Venice</h1>
+    <h1>Venice</h1>
     <br>
-    <hr>
+
 
     <h2>Table of Content</h2>
-    <a href="#introduction section">Introduction</a>
-<br>
-    <a href="#sestieri section">Sestieri</a>
-<br>
-    <a href="#literature section">Literature</a>
-<br>
-<hr>
+<ul>
+   <li> <a href="#introduction section">Introduction</a></li>
+
+    <li><a href="#sestieri section">Sestieri</a></li>
+
+    <li><a href="#literature section">Literature</a></li>
+
+</ul>
     <h2 id="introduction section">Introduction</h2>
 
     <p>
@@ -67,15 +55,17 @@
         were collectively designated a UNESCO World Heritage site. Pop. (2009 est.) city, 59,984; (2011 est.) comune,
         270,884.</p>
     <br>
-    <img src="intro.jpg"
+
+    <img class="center" src="intro.jpg"
     alt = "City View Picture"/>
-    <hr>
+
+
     <h2 id="sestieri section">Sestieri</h2>
 <p>
     The Historic city of Venice is divided into six areas called sestieri:
 </p>
 
-    <table align="center">
+    <table class="center">
         <tr>
             <th>Sestiere</th>
             <th>Area</th>
@@ -120,13 +110,13 @@
         </tr>
     </table>
     <br>
-    <img src="Sestieri.jpg"
+    <img class="center" src="Sestieri.jpg"
          alt = "Picture of a part of city"
     width="1024"/>
-    <hr>
+
 
 <h2 id="literature section">Literature</h2>
-    <img src="literature.jpg">
+    <img class="center" src="literature.jpg">
 <ul>
     <li>Shakespeare's <i>Merchant of Venice</i>  and <i>Othello</i> (1603).</li>
     <li>Ben Jonson's <i>Volpone</i> (1605 &#8211 6).</li>
@@ -148,7 +138,7 @@
     <li>John Berendt's <i>The City of Falling Angels</i> (2005)</li>
 </ul>
 
-<video  width="400" height="300" loop autoplay ><source src="video.mp4" type="video/mp4"></video>
+<video  class="center" width="400" height="300" loop autoplay ><source src="video.mp4" type="video/mp4"></video>
 
 <footer>
     <p>Personal Project</p>

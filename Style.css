@@ -1,0 +1,51 @@
+table,
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: CadetBlue;
+    color: white;
+}
+
+body {
+    background-color:paleturquoise;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    font-family: Snell Roundhand, cursive;
+
+}
+
+h2 {
+    font-family: Snell Roundhand, cursive;
+}
+
+p{
+    font-family: Palatino, URW Palladio L, serif;
+    text-indent: 50px;
+    line-height: 1.5;
+
+}
+
+img.center, video.center {
+    display: block;
+    margin: 0 auto;
+}
+
+table.center{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+
