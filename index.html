@@ -7,11 +7,30 @@
 
     <link rel="stylesheet" href="Style.css">
 
+
+
 </head>
 <body>
 <div align="right" class="topnav">
     <input type="text" placeholder="Search..">
+    <br>
+    <br>
+    <button onclick="myFunction()">dark mode</button>
+
+    <script>
+        function myFunction() {
+            var body = document.body;
+            var container = document.getElementById("container");
+            body.classList.toggle("dark-mode");
+            container.classList.toggle("dark-mode");
+        }
+    </script>
+
 </div>
+
+
+
+
     <h1>Venice</h1>
     <br>
 
@@ -31,7 +50,7 @@
 
 
 
-        <div class="flex-container">
+        <div class="flex-container" id="container">
             <div>
                 <h2 id="introduction section">Introduction</h2>
                 <p>Venice, Italian Venezia, city, major seaport, and capital of both the provincia (province) of Venezia
@@ -118,7 +137,7 @@
                 <br>
                 <img class="center" src="Sestieri.jpg"
                      alt = "Picture of a part of city"
-                     width="500"/>
+                     width="400"/>
             </div>
 
             <div><h2 id="literature section">Literature</h2>
