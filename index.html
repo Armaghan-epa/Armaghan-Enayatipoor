@@ -189,7 +189,26 @@
 
 
 
-<video  class="center" width="400" height="300" loop autoplay ><source src="video.mp4" type="video/mp4"></video>
+<video  class="center" width="400" height="300" loop autoplay ><source src="video.mp4" type="video/mp4">
+</video>
+
+<form action="" method="post" id="quiz-form">
+    <p>
+        <input type="number" name="first_num" id="first_num" required="required" value="<?php echo $first_num; ?>" /> <b>First Number</b>
+    </p>
+
+    <p>
+        <input type="number" name="second_num" id="second_num" required="required" value="<?php echo $second_num; ?>" /> <b>Second Number</b>
+    </p>
+    <input type="submit" name="operator" value="Add" />
+    <input type="submit" name="operator" value="Subtract" />
+    <input type="submit" name="operator" value="Multiply" />
+    <input type="submit" name="operator" value="Divide" />
+    <p>
+        <input readonly="readonly" name="result" value="<?php echo $result; ?>"> <b>Result</b>
+    </p>
+
+</form>
 
 <footer>
     <p>Personal Project</p>
